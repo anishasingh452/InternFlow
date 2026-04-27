@@ -1,6 +1,6 @@
 # InternFlow
 
-InternFlow is a lightweight Android productivity app for a small student developer team. It gives mentors a quick dashboard for task progress, ownership visibility, and stale in-progress work that may need attention.
+InternFlow is a lightweight Android app simulating iOS-style development team workflows for tracking tasks and identifying blockers in intern teams. It gives mentors a quick dashboard for task progress, ownership visibility, and stale in-progress work that may need attention.
 
 ## Tech Stack
 
