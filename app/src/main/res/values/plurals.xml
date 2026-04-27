@@ -1,0 +1,6 @@
+<resources>
+    <plurals name="dashboard_attention_count">
+        <item quantity="one">%d task needs mentor attention.</item>
+        <item quantity="other">%d tasks need mentor attention.</item>
+    </plurals>
+</resources>

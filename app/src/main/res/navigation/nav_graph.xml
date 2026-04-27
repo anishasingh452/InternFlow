@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/dashboardFragment">
+
+    <fragment
+        android:id="@+id/dashboardFragment"
+        android:name="com.example.internflow.ui.dashboard.DashboardFragment"
+        android:label="InternFlow">
+        <action
+            android:id="@+id/action_dashboardFragment_to_addTaskFragment"
+            app:destination="@id/addTaskFragment"
+            app:enterAnim="@anim/slide_in_right_fade"
+            app:exitAnim="@anim/slide_out_left_fade"
+            app:popEnterAnim="@anim/slide_in_left_fade"
+            app:popExitAnim="@anim/slide_out_right_fade" />
+        <action
+            android:id="@+id/action_dashboardFragment_to_taskListFragment"
+            app:destination="@id/taskListFragment"
+            app:enterAnim="@anim/slide_in_right_fade"
+            app:exitAnim="@anim/slide_out_left_fade"
+            app:popEnterAnim="@anim/slide_in_left_fade"
+            app:popExitAnim="@anim/slide_out_right_fade" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/addTaskFragment"
+        android:name="com.example.internflow.ui.add.AddTaskFragment"
+        android:label="Add Task" />
+
+    <fragment
+        android:id="@+id/taskListFragment"
+        android:name="com.example.internflow.ui.list.TaskListFragment"
+        android:label="All Tasks" />
+</navigation>

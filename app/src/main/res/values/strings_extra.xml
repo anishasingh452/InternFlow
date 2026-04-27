@@ -1,0 +1,9 @@
+<resources>
+    <string name="dashboard_attention_clear">No stale in-progress work right now.</string>
+    <string name="dashboard_total_tasks">Total Tasks</string>
+    <string name="dashboard_in_progress">In Progress</string>
+    <string name="dashboard_completed">Completed</string>
+    <string name="dashboard_needs_attention">Needs Attention</string>
+    <string name="add_task_title_error">Add a task title.</string>
+    <string name="add_task_saved">Task saved</string>
+</resources>

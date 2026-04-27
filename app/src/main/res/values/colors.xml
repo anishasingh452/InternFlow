@@ -1,0 +1,13 @@
+<resources>
+    <color name="brand">#0F172A</color>
+    <color name="brand_light">#F5F5F7</color>
+    <color name="surface_soft">#EEF1F5</color>
+    <color name="surface_card">#FFFFFF</color>
+    <color name="border_soft">#E5E7EB</color>
+    <color name="text_primary">#111827</color>
+    <color name="text_secondary">#667085</color>
+    <color name="status_not_started">#6B7280</color>
+    <color name="status_in_progress">#2563EB</color>
+    <color name="status_done">#16A34A</color>
+    <color name="attention">#DC2626</color>
+</resources>
